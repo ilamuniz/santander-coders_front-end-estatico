@@ -1,37 +1,92 @@
+.header-logo, .header-logo img {
+    width: 90px;
+}
+
 .menu{
     margin: 0;
     padding: 10px;
     background-color: white;
     box-shadow: 1px 2px 2px #ccc;
-    vertical-align: top;
-    height: 100%;
-    width: 10%;
+    width: 100%;
     position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px #9d9090 solid;
 }
 
 .menu li{
-    display: block;
+    display: inline-block;
     padding: 10px 0px;
+    margin-right: 20px;
     font-size: 20px;
     font-family: sans-serif;
 }
 
 .menu li a{
     text-decoration: none;
-    color: #288f43;
+    color: #381C76;
 }
 
 .content {
-    margin-left: 140px;
+    margin-left: 20px;
+    margin-top: 120px;
 }
 
 .titulo {
-    color: #2525a5;
-    font-size: 50px;
+    color: #381C76;
+    font-size: 30px;
     font-family: sans-serif;
     text-align: center;
-    margin-top: 0px;
-    padding-top: 50px;
+}
+
+.subtitulo, .titulo {
+    margin-left: 40px;
+}
+
+.btn-download {
+    margin: 10px 40px;
+    color: white;
+    background-color: green;
+    border: 1px solid #035403;
+    border-radius: 6px;
+    font-size: 22px;
+    padding: 5px 15px;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px #ccc;
+    transition: background-color 0.4s;
+}
+
+.btn-download:hover {
+    background-color: #063506;
+}
+
+.staging-content {
+    width: 100%;
+    height: 340px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.staging-content div {
+    width: 50%;
+    display: inline-block;
+}
+
+.div-content-staging {
+    height: 100%;
+}
+
+.div-img {
+    float: right;
+    text-align: center;
+}
+
+.img-staging {
+    height: 350px;
+}
+
+.div-content {
+    margin-left: 40px;
 }
 
 .cards {
@@ -79,4 +134,17 @@
     text-align: justify;
     margin: 15px;
     width: 100%;
+}
+
+.groups {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    padding: 10px;
+    box-sizing: border-box;
 }

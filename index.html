@@ -3,51 +3,67 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/estilo.css">
+        <title>Baixe agora o antivírus mais completo do mercado</title>
     </head>
     <body>
         
         <header>
             <nav>
                 <ul class="menu">
-                    <li><a href="#section1">Home</a></li>
-                    <li><a href="#section2">Empresa</a></li>
-                    <li><a href="#section3">Serviços</a></li>
-                    <li><a href="#section4">Contato</a></li>
+                    <li><a class="header-logo" href="#"><img src="./assets/logos/umbrella-logo-preto.png"></a></li>
+                    <li><a href="#section1">Baixe</a></li>
+                    <li><a href="#section2">Sobre nós</a></li>
+                    <li><a href="#section3">Produtos e Serviços</a></li>
+                    <li><a href="#section4">Contate-nos</a></li>
                 </ul>
             </nav>
         </header>
 
         <div class="content">
             <section class="principal" id="section1">
-                <h1 class="titulo">Home</h1>
 
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id tortor pellentesque, suscipit dui non, venenatis nulla.</p>
+                <div class="staging-content">
+                    <div class="div-content-staging">
+                        <h1 class="titulo">Conheça o novo Goya Security para Windows, Linux e Mac</h1>
+                        <h2 class="subtitulo">Fique livre de vírus, malwares e dispositivos lentos em um clique</h2>
+
+                        <button class="btn-download">Baixe agora</button>
+                    </div>
+                    <div class="div-img">
+                        <img class="img-staging" src="assets/imgs/computador.png">
+                    </div>
+                </div>
             
+            </section>
+
+            <section id="section2">
+                <h2 class="titulo">Garantia e confiança</h2>
+
+                <div class="div-content"><p>Na Safe&Sound, nós garantimos que seu novo plano o protegerá de todo tipo de ameaça on-line, 
+                    por isso oferecemos uma garantia de reembolso de 30 dias.</p>
+                    <p>Somos líder de mercado quando o assunto é segurança da informação e desenvolvemos produtos
+                        para empresas renomadas como Google e Facebook.</p>
+                </div>
+
                 <div class="cards">
                     <div id="primeiro-card">
                         <div class="img-card">
-                            <img src="https://i.pinimg.com/originals/fb/f1/45/fbf145889f1f6ca5d6af234670bcd7d2.jpg" alt="cartão">
+                            <img src="assets/imgs/pessoa1-computador.jpg" alt="pessoa1-computador">
                         </div>
                     </div>
                 </div>
-            </section>
 
-            <section class="empresa" id="section2">
-                <h2 class="titulo">Empresa</h2>
-
-                <p class="description">Fusce nec velit ac mi fermentum semper. Pellentesque sed orci risus. Fusce gravida</p>
-            
                 <div class="cards">
                     <div id="segundo-card">
                         <div class="img-card">
-                            <img src="https://i.pinimg.com/originals/fb/f1/45/fbf145889f1f6ca5d6af234670bcd7d2.jpg" alt="cartão">
+                            <img src="assets/imgs/pessoa2-computador.jpg" alt="pessoa2-computador">
                         </div>
                     </div>
                 </div>
             </section>
 
             <section id="section3">
-                <h2 class="titulo">Serviços</h2>
+                <h2 class="titulo">Proteja-se dos vírus, navegue anonimamente e melhore a performance do seu PC</h2>
 
                 <table id="tabela">
                     <thead>
@@ -55,37 +71,53 @@
                             <th colspan="3">Tabela de Produtos</th>
                         </tr>
                         <tr>
-                            <th>Nome</th>
-                            <th>Preço</th>
-                            <th>Quantidade em Estoque</th>
+                            <th>Básico</th>
+                            <th>Avançado</th>
+                            <th>Premium</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Arroz</td>
-                            <td>5,99</td>
-                            <td>100</td>
+                            <td>Antivírus em tempo real</td>
+                            <td>Antivírus em tempo real</td>
+                            <td>Antivírus em tempo real</td>
                         </tr>
                         <tr>
-                            <td>Feijão</td>
-                            <td>5,50</td>
-                            <td>400</td>
+                            <td>Proteção de dados</td>
+                            <td>Proteção de dados</td>
+                            <td>Proteção de dados</td>
                         </tr>
                         <tr>
-                            <td>Macarrão</td>
-                            <td>2,99</td>
-                            <td>350</td>
+                            <td>Otimização de desempenho</td>
+                            <td>Otimização de desempenho</td>
+                            <td>Otimização de desempenho</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
 
             <section id="section4">
-                <h2 class="titulo">Contato</h2>
+                <h2 class="titulo">Contate-nos</h2>
                 <div id="texto-form">
                     Dúvidas, sugestões ou reclamações podem ser enviadas no formulário abaixo e entraremos em contato o mais breve possível!
                 </div>
 
+                <div class="groups">
+                    <div class="group">
+                        <label>Nome</label>
+                        <input class="input" type="text" name="nome">
+                    </div>
+                    
+                    <div class="group">
+                        <label>Mensagem</label>
+                        <input minlength="200" class="input" type="text" name="mensagem">
+                    </div>
+                    
+                    <div class="group">
+                        <label>E-mail</label>
+                        <input required class="input" type="email" name="email">
+                    </div>
+                </div>
             </section>
 
             <footer class="conteudo-final">
