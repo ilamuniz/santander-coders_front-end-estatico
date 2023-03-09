@@ -1,0 +1,10 @@
+#tabela {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+#tabela thead {
+    background-color: #381C76;
+    color: white;
+}

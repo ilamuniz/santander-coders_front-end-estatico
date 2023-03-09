@@ -43,21 +43,28 @@
     margin-left: 40px;
 }
 
-.btn-download {
+.btn {
     margin: 10px 40px;
     color: white;
     background-color: green;
     border: 1px solid #035403;
     border-radius: 6px;
-    font-size: 22px;
     padding: 5px 15px;
     cursor: pointer;
     box-shadow: 1px 2px 4px #ccc;
     transition: background-color 0.4s;
 }
 
-.btn-download:hover {
+.btn:hover {
     background-color: #063506;
+}
+
+#btn-download {
+    font-size: 22px;
+}
+
+#btn-form {
+    font-size: 12px;
 }
 
 .staging-content {
@@ -118,12 +125,6 @@
     text-align: right;
 }
 
-#tabela {
-    margin: auto;
-    text-align: center;
-    width: 100%;
-}
-
 .conteudo-final {
     width: 100%;
     padding: 15px;
@@ -157,7 +158,7 @@
 }
 
 .planos img {
-    height: 200px;
+    height: 250px;
 }
 
 .plano {
