@@ -148,3 +148,20 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+.planos {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.planos img {
+    height: 200px;
+}
+
+.plano {
+    margin: 20px;
+    display: inline-table;
+    position: relative;
+}
