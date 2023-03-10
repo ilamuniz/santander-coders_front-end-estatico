@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .header-logo, .header-logo img {
     width: 90px;
 }
@@ -73,6 +77,8 @@
     height: 340px;
     background-color: #ccc;
     text-align: center;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .staging-content div {
@@ -98,6 +104,11 @@
 }
 
 .cards {
+    text-align: center;
+    margin: auto;
+}
+
+.card {
     width: 300px;
     border: 1px solid #999;
     padding: 13px;
