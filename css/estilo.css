@@ -131,25 +131,6 @@
     border-top: 2px solid #ccc;
 }
 
-#texto-form {
-    text-align: justify;
-    margin: 15px;
-    width: 100%;
-}
-
-.groups {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.group {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 50%;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
 .planos {
     text-align: center;
     display: flex;

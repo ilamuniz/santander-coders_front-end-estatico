@@ -5,6 +5,7 @@
         <link rel="shortcut icon" href="./assets/logos/safe-e-sound_icon.png">
         <link rel="stylesheet" href="css/estilo.css">
         <link rel="stylesheet" href="css/tabela.css">
+        <link rel="stylesheet" href="css/form.css">
         <title>Baixe agora o antivírus mais completo do mercado</title>
     </head>
     <body>
@@ -132,31 +133,40 @@
 
             <br><br>
 
-            <section id="section4">
-                <h2 class="titulo">Contate-nos</h2>
-                <div id="texto-form">
-                    Dúvidas, sugestões ou reclamações podem ser enviadas no formulário abaixo e entraremos em contato o mais breve possível!
-                </div>
+            <form class="form">
+                <section id="section4">
+                    <h2 class="titulo">Contate-nos</h2>
+                    <div class="texto-form">
+                        Dúvidas, sugestões ou reclamações podem ser enviadas no formulário abaixo e entraremos em contato o mais breve possível!
+                    </div>
 
-                <div class="groups">
-                    <div class="group">
-                        <label>Nome</label>
-                        <input class="input" type="text" name="nome">
-                    </div>
-                    
-                    <div class="group">
-                        <label>Mensagem</label>
-                        <input minlength="200" class="input" type="text" name="mensagem">
-                    </div>
-                    
-                    <div class="group">
-                        <label>E-mail</label>
-                        <input required class="input" type="email" name="email">
-                    </div>
-                </div>
+                    <div class="content-form">
+                        <div class="groups">
+                            <div class="group">
+                                <label>Nome</label>
+                                <input class="input" type="text" name="nome">
+                            </div>
+                            
+                            <div class="group">
+                                <label>E-mail</label>
+                                <input required class="input" type="email" name="email">
+                            </div>
 
-                <button class="btn" id="btn-form">Enviar</button>
-            </section>
+                            <div class="group">
+                                <label>Telefone</label>
+                                <input class="input" type="tel" name="telefone">
+                            </div>
+
+                            <div class="group">
+                                <label>Mensagem</label>
+                                <input minlength="200px" class="input" type="text" name="mensagem">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn" id="btn-form">Enviar</button>
+                </section>
+            </form>
 
             <footer class="conteudo-final">
                 <p>©Todos os direitos reservados</p>
