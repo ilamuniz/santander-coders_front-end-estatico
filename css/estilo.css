@@ -59,12 +59,13 @@
     background-color: #063506;
 }
 
-#btn-download {
+.btn-download {
     font-size: 22px;
 }
 
-#btn-form {
-    font-size: 12px;
+.btn-form {
+    font-size: 14px;
+    transform: translate(8px, -4px);
 }
 
 .staging-content {
