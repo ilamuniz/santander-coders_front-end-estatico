@@ -1,0 +1,31 @@
+@media (width <= 736px) {
+    .img-staging{
+        display: none;
+    }
+
+    .subtitulo{
+        display: none;
+    }
+
+    .staging-content {
+        height: 240px;
+    }
+
+    .staging-content div {
+        width: 100%;
+    }
+}
+
+@media (width <= 620px) {
+    .header-logo img {
+        display: none;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    .content {
+        margin-top: 220px;
+    }
+}
