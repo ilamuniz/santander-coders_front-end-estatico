@@ -12,4 +12,4 @@ ___
 ___
 ### Apresentação visual do projeto desenvolvido
 
-[[https://github.com/ilamuniz/santander-coders_front-end-estatico/tree/main/assets/imgs/imgs-readme/layout01.png]]
+(https://github.com/ilamuniz/santander-coders_front-end-estatico/tree/main/assets/imgs/imgs-readme/layout01.png)
