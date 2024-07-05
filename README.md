@@ -12,6 +12,22 @@ ___
 ___
 ### Apresentação visual do projeto desenvolvido
 
+#### Apresentação inicial do produto
 <div allign = "center">
-<img src="/assets/imgs/imgs-readme/layout01.png" width = "600px" />
+<img src="/assets/imgs/imgs-readme/layout01.png" width = "700px" />
+</div>
+
+#### Apresentação da empresa fictícia do produto
+<div allign = "center">
+<img src="/assets/imgs/imgs-readme/layout02.png" width = "700px" />
+</div>
+
+#### Tabela com comparativos de planos distintos do produto
+<div allign = "center">
+<img src="/assets/imgs/imgs-readme/layout03.png" width = "700px" />
+</div>
+
+#### Formulário para contato
+<div allign = "center">
+<img src="/assets/imgs/imgs-readme/layout04.png" width = "700px" />
 </div>
